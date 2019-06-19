@@ -6,5 +6,4 @@ def parrot(sound="Squak!")
 end
 
 puts "What sound does a parrot make?"
-sound = gets.strip
 parrot(sound)
