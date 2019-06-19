@@ -5,5 +5,5 @@ def parrot(phrase="Squawk!")
   return "#{phrase}"
 end
 
-puts "What sound does a parrot make?"
+phrase = gets.strip
 parrot(phrase)
